@@ -1,3 +1,325 @@
 <html>
-  <h1>HELLO!</h1>
+  <head>
+    <style>
+      .border {
+        border: 1px solid;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 2vh 2vh;
+        grid-template-rows: 2vh 2vh;
+      }
+      .grid-small {
+        display: grid;
+        grid-template-columns: 1vh 1vh;
+        grid-template-rows: 1vh 1vh;
+      }
+      .container {
+        height: 100%;
+        width: 100%;
+        border: 1px solid;
+      }
+      .hair {
+        height: 4vh;
+        width: 4vh;
+        background-color: black;
+      }
+      .skin {
+        height: 4vh;
+        width: 4vh;
+        background-color: #f1c27d;
+      }
+      .shirt {
+        height: 4vh;
+        width: 4vh;
+        background-color: #c0c6c9;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+      }
+      .null {
+        height: 4vh;
+        width: 4vh;
+        background-color: #fff;
+      }
+      .beard {
+        height: 1vh;
+        width: 1vh;
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <div class="container">
+    <div name="face">
+      <div class="row">
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+      </div>
+      <div class="row">
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+      </div>
+      <div class="row">
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+      </div>
+      <div class="row">
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+      </div>
+      <div class="row">
+        <div class="hair"></div>
+        <div class="hair"></div>
+        <div class="skin"></div>
+        <div class="null"></div>
+        <div class="skin"></div>
+        <div class="null"></div>
+        <div class="skin"></div>
+        <div class="hair"></div>
+        <div class="hair"></div>
+      </div>
+      <div class="row">
+        <div class="hair"></div>
+        <div class="skin"></div>
+        <div class="grid skin">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div class="grid-small">
+            <div></div>
+            <div></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+          </div>
+        </div>
+        <div class="grid skin">
+          <div></div>
+          <div></div>
+          <div class="grid-small">
+            <div></div>
+            <div></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+          </div>
+          <div class="grid-small">
+            <div></div>
+            <div></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+          </div>
+        </div>
+        <div class="grid skin">
+          <div></div>
+          <div></div>
+          <div>
+            <div class="grid-small">
+              <div></div>
+              <div></div>
+              <div class="beard"></div>
+              <div class="beard"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skin"></div>
+        <div class="hair"></div>
+      </div>
+      <div class="row">
+        <div class="skin"></div>
+        <div class="grid skin">
+          <div></div>
+          <div class="grid-small">
+            <div class="beard"></div>
+            <div></div>
+            <div class="beard"></div>
+          </div>
+          <div></div>
+          <div class="grid-small">
+            <div class="beard"></div>
+            <div></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+          </div>
+        </div>
+        <div class="grid skin">
+          <div></div>
+          <div></div>
+          <div class="grid-small">
+            <div></div>
+            <div></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+          </div>
+          <div class="grid-small">
+            <div></div>
+            <div></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+          </div>
+        </div>
+        <div class="grid skin">
+          <div class="grid-small">
+            <div></div>
+            <div class="beard"></div>
+            <div></div>
+            <div class="beard"></div>
+          </div>
+          <div></div>
+          <div class="grid-small">
+            <div></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+            <div class="beard"></div>
+          </div>
+        </div>
+        <div class="skin"></div>
+      </div>
+    </div>
+    <div name="shirt">
+      <div class="row">
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+      </div>
+      <div class="row">
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+      </div>
+      <div class="row">
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+      </div>
+      <div class="row">
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+      </div>
+      <div class="row">
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+      </div>
+      <div class="row">
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+      </div>
+      <div class="row">
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+      </div>
+      <div class="row">
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+      </div>
+      <div class="row">
+        <div class="skin"></div>
+        <div class="skin"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="skin"></div>
+        <div class="skin"></div>
+      </div>
+      <div class="row">
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+        <div class="shirt"></div>
+      </div>
+    </div>
+  </div>
 </html>
